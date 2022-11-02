@@ -1,0 +1,28 @@
+swagger: '2.0'
+info:
+  version: 2.0.0
+  title: Fana Protocol API
+  description: Api to scrap any Telegram channels
+
+# servers:
+# - url: https://fanaprotocol/api/v2/
+
+schemes:
+  - https
+host: fanaprotocol.com
+basePath: /api/v2/
+
+securityDefinitions:
+  UserSecurity:
+    type: basic
+
+security:
+  - UserSecurity: []
+
+paths:
+  /get_info:
+    get:
+      description: returns number
+      responses:
+        200:
+          description: Successfully
