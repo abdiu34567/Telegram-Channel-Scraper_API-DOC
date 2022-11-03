@@ -1,6 +1,6 @@
 # ⚡️ TELEGRAM CHANNEL SCRAPER ⚡️
 
-> [Updated Version Of Fana Protocol](https://fanaprotocol.herokuapp.com/api/v1/)
+> [Updated Version Of Fana Protocol](https://github.com/baydisng13/fana-doc/blob/main/README.md)
 
 > Base Url : https://fanatgchannelscraper.herokuapp.com/api/
 
