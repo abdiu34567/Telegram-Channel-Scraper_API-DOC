@@ -23,9 +23,10 @@
 | --------------------------------------------------- | --------------------------------------- |
 | NO_VALID_CHANNEL_USERNAME_FOUND                     | invalid channel username                |
 | ONLY_CHANNELS_ALLOWED                               | only channels can be scraped            |
-| NO_POST_FOUND                                       | Channels With Empty Post                |
-| NO_VALID_ID_FOUND                                   | Post Id is not Valid                    |
+| NO_POST_FOUND                                       | channels With Empty Post                |
+| NO_VALID_ID_FOUND                                   | post Id is not Valid                    |
 | EXPECT_VALID_CHANNEL_USER_NAMES, AS Query PARAMETER | expect valid multiple channel usernames |
+| MULTIPLE_CHANNEL_USER_NAME_EXPECTED                 | channel usernames have to more than 1   |
 
 <br>
 
