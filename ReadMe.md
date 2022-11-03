@@ -2,7 +2,7 @@
 
 > [Updated Version Of Fana Protocol](https://fanaprotocol.herokuapp.com/api/v1/)
 
-> Base Url : https://tg-data.herokuapp.com/api/
+> Base Url : https://fanatgchannelscraper.herokuapp.com/api/
 
 <br>
 
@@ -42,7 +42,7 @@
 
 ### Example:
 
-**[Get]** ⚡️ https://tg-data.herokuapp.com/api/get_info/ethio_market_place
+**[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/get_info/ethio_market_place
 
 <br>
 
@@ -82,9 +82,9 @@
 
 ### Example:
 
-- **[Get]** ⚡️ https://tg-data.herokuapp.com/api/get_post/ethio_market_place
-- **[Get]** ⚡️ https://tg-data.herokuapp.com/api/get_post/ethio_market_place?after=1930
-- **[Get]** ⚡️ https://tg-data.herokuapp.com/api/get_post/ethio_market_place?before=1930
+- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/get_post/ethio_market_place
+- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/get_post/ethio_market_place?after=1930
+- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/get_post/ethio_market_place?before=1930
 
 <br>
 
@@ -122,9 +122,9 @@
 
 ### Example:
 
-- **[Get]** ⚡️ https://tg-data.herokuapp.com/api/channel_value/ethio_market_place
-- **[Get]** ⚡️ https://tg-data.herokuapp.com/api/channel_value/ethio_market_place?after=1930
-- **[Get]** ⚡️ https://tg-data.herokuapp.com/api/channel_value/ethio_market_place?before=1930
+- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/channel_value/ethio_market_place
+- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/channel_value/ethio_market_place?after=1930
+- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/channel_value/ethio_market_place?before=1930
 
 <br>
 
@@ -164,9 +164,9 @@
 
 ### Example:
 
-- **[Get]** ⚡️ https://tg-data.herokuapp.com/api/getlastpost_id/ethio_market_place
-- **[Get]** ⚡️ https://tg-data.herokuapp.com/api/getlastpost_id/ethio_market_place?after=1930
-- **[Get]** ⚡️ https://tg-data.herokuapp.com/api/getlastpost_id/ethio_market_place?before=1930
+- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/getlastpost_id/ethio_market_place
+- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/getlastpost_id/ethio_market_place?after=1930
+- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/getlastpost_id/ethio_market_place?before=1930
 
 <br>
 
@@ -193,7 +193,7 @@
 
 ### Example:
 
-- **[Get]** ⚡️ https://tg-data.herokuapp.com/api/getpostby_id/ethio_market_place/1954
+- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/getpostby_id/ethio_market_place/1954
 
 <br>
 
@@ -221,7 +221,7 @@
 
 ### Example:
 
-- **[Get]** ⚡️ https://tg-data.herokuapp.com/api/getmultiplechannels_post?channels=ethio_market_place&channels=ethio_market_place
+- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/getmultiplechannels_post?channels=ethio_market_place&channels=ethio_market_place
 
 <br>
 
