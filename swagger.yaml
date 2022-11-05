@@ -5,9 +5,9 @@ info:
   description: Api to scrap any Telegram channels
 
 schemes:
-  - http
-host: localhost:2000
-basePath: /api/
+  - https
+host: fanatgchannelscraper.herokuapp.com
+basePath: /api/v2
 
 paths:
   /get_info/{channel}:
