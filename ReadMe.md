@@ -65,7 +65,7 @@
 
 <br>
 
-## get_post:
+## get_post && get_posts:
 
 <br>
 
@@ -83,7 +83,7 @@
 
 <br>
 
-### Example:
+### Example get_post:
 
 - **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/v2/get_post/ethio_market_place
 - **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/v2/get_post/ethio_market_place?after=1930
@@ -105,25 +105,7 @@
 
 <br>
 
-## get_posts:
-
-<br>
-
-### Path Parameter
-
-| @channel_username |
-| ----------------- |
-
-<br>
-
-### Query Parameter
-
-| offset=[after or before] | post id=[number] |
-| ------------------------ | ---------------- |
-
-<br>
-
-### Example:
+### Example get_posts:
 
 - **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/v2/get_posts/behagerlij
 - **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/v2/get_posts/behagerlij?after=500
