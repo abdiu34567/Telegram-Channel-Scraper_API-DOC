@@ -10,6 +10,7 @@
 
 - ⚡️`get_info/{channel_username}`
 - ⚡️`get_post/{channel_username}`
+- ⚡️`get_posts/{channel_username}`
 - ⚡️`channel_value/{channel_username}`
 - ⚡️`getlastpost_id/{channel_username}`
 - ⚡️`getpostby_id/{channel_username}/{post_id}`
@@ -98,6 +99,53 @@
     id: 1937,
     text: '✅ New\n\nCANON ZEBRA ZOOM 100-400MM LENS\n\nCanon zebra zoom 100-400mm lens\nF/4.5-5.6\nAlmost new \n \n ይደውሉልን 0911156257\nካሜራ እና የካሜራ እቃዎችን እንገዛለን እንሸጣለን\n#camera \nከታች ባለው ቴሌግራም ሊንክ ያገኙ https://t.me/joinchat/AAAAAEUTeB3LSYVFukiuQw\n\nአድራሻ= ቦሌ ወሎ ሰፈር HMM ህንፃ 2ኛ ፍቅ 205\n@minilke\n\n💵  BIRR\n\n📱 0911156257 |\n\nFrom: @ethio_market_place_bot',
     img: 'https://cdn4.telegram-cdn.org/file/p4rxUpLuhun-1Ebx_RlDXhe8whUcXuTidRplhQf0NIZUzHb-5LwQv0hC7UzjZqv7PoDDo8x5vs5faKTgko0DPXvqdCE4F089ep8F76fFBRQh1sInwES7J0yVlwrsQeuU0ybFIK_gFMpVlkRFSamMZorN0XVCAaFe_QF-4cMXMv-4jMl7-l6M-ZgzqhzxHD1p5t2xNYHKnLQV3KUilxRnvryiRDnHhrpC4w8ZPHK3i_pK-EFzKPzgMJDzQBdnFZAtx8RYLPD5IawIWvlJQzjEQSQnwHPNhlOEuTyfdlq2NkR3GX-HdButusm8wk4jkNDL1QUisUf1Ju4e-7wyPqDPiA.jpg',
+  },
+]
+```
+
+<br>
+
+## get_posts:
+
+<br>
+
+### Path Parameter
+
+| @channel_username |
+| ----------------- |
+
+<br>
+
+### Query Parameter
+
+| offset=[after or before] | post id=[number] |
+| ------------------------ | ---------------- |
+
+<br>
+
+### Example:
+
+- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/v2/get_posts/behagerlij
+- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/v2/get_posts/behagerlij?after=500
+- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/v2/get_posts/behagerlij?before=500
+
+<br>
+
+### Response Body Example:
+
+```js
+;[
+  {
+    id: 524,
+    text: 'The small things add up to make big differences. \nIt’s all about the little things.\n.\n.\n.\n#behagerlij #awaqi #illustration #Ethiopia',
+    img: [
+      'https://cdn4.telegram-cdn.org/file/SlX7hTBMwd_wcogFUhmwou7EZrbexrdc7LTOhoNATO8J6L8lsp_HUAU_3GOqXvLg1MWbPyzwacx9E2LJoRdDmdwe94sp8IRSqQiVcyLNCd9gXtla0ClEulLbT14eFyAZ6s2LxjtpaT3UNRlbOKZS90_eHcUzWp2_DZXTTjRkcq1lzPGKk-URarEYKvVflGI5S0ejxZWrpdRXI06EvTYkgha-fA1uNF6Epm2VuuRLx1-xCkLSb-H_nPqxnkJafKnizULGfzIKi_wy-Ly51uv189ilHkbYNxBhbGS9uNIE16rA3oyF_wl8tczUQzi7xxytKN-rVqysWlBSblwAC507dg.jpg',
+      'https://cdn4.telegram-cdn.org/file/mbmniacrOq_68OXDI85Do1nkv10fZxS0bFf4fKbfsDpO8ZNCxptXVR_hqg4Dz65DGixZikmqWBRz8I5U8mKmDBAvU2g3NXl1iPHj3cP878rl04-hDGpLCnF8pCAQ__96S_dfiHquFeQOrSyMQ2ZkJyO41NEQDOk_wSZaEMvSon_I8JPwJlP21JQgdhey-KWOXkTKFZCp8kM8xbRt1J4wKthlAxeU3feRbnSqp_XvlcfigXO3RYE5ZrWvp9BqXAUDWQxqPqd9j6_ciosrUvMTRPXreBLvePkh19sKyqc3QFcfJMKSi64ZVJaCdstN_-yeNMRzPKZhfiylV6RvkPgKRA.jpg',
+      'https://cdn4.telegram-cdn.org/file/MoQILD8OfJV_JmQEP2qDYHRvT3KB-XNmzIkp103ZiClcG4Ac1nA10jMhvmBU1jiAryYqyGVgjhSZXKd7ax4isBGb5ezhNYk-FeRnRUDdkmzn_3aweFlrC_v9HyJK8asRDIWpc6e2QWEpiYHYWjCIq7N6GeJCrhZsCiHGqGkbFfxp5YIJJn3M8dWCIplWqbtn6zXgXyR7VEhDedfEVVjpBFzEMDAlv26SVeLk-yhIUu-2F2soYhmfWmXSvGG6xNYIZylCprLEPfbRbt88B76P893CCNJ0f8KlTkb3UsVvfsn7B55COpm_cgDX2go2SZm2Sxf4f_d3m5M6H4dS9t5vdw.jpg',
+      'https://cdn4.telegram-cdn.org/file/iQ7MFLjLoDdYasd4peL_xVL8_41Ypc5hOnw_gfzUasKLY3JukrZYGH6c_bnwF4FDNwVuOZVOpHHi3HbwXLqbpyH2YzHnWxK509EHkiI-54BljQzXdCrCHfMUzZe9k3VWCD0WxhFKdSqmx2XZLrvnf60A7qpctFk5p9b1Wz2MU_gI93gCnLCXqAVosJRWrVINzfqHZNBgtrl92JRxgbLGqYRBjrDDcGx-G26UYWakGEVuEQpGd-PJYDIKSmN3VTClvy9_vRoaDkwYhvAEMV21XUOB1D9yjZjSdslM-Ta4KN2Jq_75MhWwrr4JZYm2JehKzH0yq12v_XhRLgp1v7k99A.jpg',
+      'https://cdn4.telegram-cdn.org/file/quxagxgTkG9qAvgWFGS4CMqVH4Xv91WIqxYmmcYoGSQV5BK8iABtiOL5QsCdJfw71P2mP5xqzzNl0m2S9VL-CejEgMvjfKwygv47j1eZ46DsveI3o51u-va0mzi0JROe6lzBVXGYueCqPc0te177UJh4dXoxF_OOMT_DhenX-I9ENMlA20mQ842uKGETnbR2OJLxr2dpFBYV8g34EcCi-EpzfE1hHPSIGB9XZPgY1TQW_WoshQEHdq0iKUjU_Io0NXoOhvOhWCVI5uIxwwWx3ATO1U4PaOeX4_R-5a_jZkoGN5lW-Pz1GwDbbuUkgWUbLIOgKK29_wC3U6syNOuqyQ.jpg',
+    ],
+    vid: [],
   },
 ]
 ```
