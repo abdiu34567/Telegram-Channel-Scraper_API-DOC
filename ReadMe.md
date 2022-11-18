@@ -6,6 +6,14 @@
 
 <br>
 
+> What's New :
+> <br>
+> ⚡️ `search/{channel_username}/{query}`
+> <br>
+> ⚡️ `get_posts/{channel_username}`
+
+<br>
+
 ## End-Points:
 
 - ⚡️`get_info/{channel_username}`
