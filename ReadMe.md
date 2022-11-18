@@ -8,8 +8,7 @@
 
 > What's New :
 > <br>
-> ⚡️ `search/{channel_username}/{query}`
-> <br>
+> ⚡️ `search/{channel_username}/{query}` > <br>
 > ⚡️ `get_posts/{channel_username}`
 
 <br>
@@ -162,7 +161,7 @@
 
 - **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/v2/search/ethio_market_place?q=shoes
 - **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/v2/search/ethio_market_place?q=shoes&after=1930
-- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/v2/search/ethio_market_place?=shoes&before=1930
+- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/v2/search/ethio_market_place?q=shoes&before=1930
 
 <br>
 
