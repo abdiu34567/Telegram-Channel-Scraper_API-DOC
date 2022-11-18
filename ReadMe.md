@@ -11,6 +11,7 @@
 - ⚡️`get_info/{channel_username}`
 - ⚡️`get_post/{channel_username}`
 - ⚡️`get_posts/{channel_username}`
+- ⚡️`search/{channel_username}/{query}`
 - ⚡️`channel_value/{channel_username}`
 - ⚡️`getlastpost_id/{channel_username}`
 - ⚡️`getpostby_id/{channel_username}/{post_id}`
@@ -29,6 +30,7 @@
 | EXPECT_VALID_CHANNEL_USER_NAMES, AS Query PARAMETER | expect valid multiple channel usernames |
 | MULTIPLE_CHANNEL_USER_NAME_EXPECTED                 | channel usernames have to more than 1   |
 | CONNECTION_ERROR_FOUND                              | connection problem occured              |
+| NO_QUERY_FOUND_TO_SEARCH                            | search query not found                  |
 
 <br>
 
@@ -129,6 +131,42 @@
       "https://cdn4.telegram-cdn.org/file/MoQILD8OfJV_JmQEP2qDYHRvT3KB-XNmzIkp103ZiClcG4Ac1nA10jMhvmBU1jiAryYqyGVgjhSZXKd7ax4isBGb5ezhNYk-FeRnRUDdkmzn_3aweFlrC_v9HyJK8asRDIWpc6e2QWEpiYHYWjCIq7N6GeJCrhZsCiHGqGkbFfxp5YIJJn3M8dWCIplWqbtn6zXgXyR7VEhDedfEVVjpBFzEMDAlv26SVeLk-yhIUu-2F2soYhmfWmXSvGG6xNYIZylCprLEPfbRbt88B76P893CCNJ0f8KlTkb3UsVvfsn7B55COpm_cgDX2go2SZm2Sxf4f_d3m5M6H4dS9t5vdw.jpg",
       "https://cdn4.telegram-cdn.org/file/iQ7MFLjLoDdYasd4peL_xVL8_41Ypc5hOnw_gfzUasKLY3JukrZYGH6c_bnwF4FDNwVuOZVOpHHi3HbwXLqbpyH2YzHnWxK509EHkiI-54BljQzXdCrCHfMUzZe9k3VWCD0WxhFKdSqmx2XZLrvnf60A7qpctFk5p9b1Wz2MU_gI93gCnLCXqAVosJRWrVINzfqHZNBgtrl92JRxgbLGqYRBjrDDcGx-G26UYWakGEVuEQpGd-PJYDIKSmN3VTClvy9_vRoaDkwYhvAEMV21XUOB1D9yjZjSdslM-Ta4KN2Jq_75MhWwrr4JZYm2JehKzH0yq12v_XhRLgp1v7k99A.jpg",
       "https://cdn4.telegram-cdn.org/file/quxagxgTkG9qAvgWFGS4CMqVH4Xv91WIqxYmmcYoGSQV5BK8iABtiOL5QsCdJfw71P2mP5xqzzNl0m2S9VL-CejEgMvjfKwygv47j1eZ46DsveI3o51u-va0mzi0JROe6lzBVXGYueCqPc0te177UJh4dXoxF_OOMT_DhenX-I9ENMlA20mQ842uKGETnbR2OJLxr2dpFBYV8g34EcCi-EpzfE1hHPSIGB9XZPgY1TQW_WoshQEHdq0iKUjU_Io0NXoOhvOhWCVI5uIxwwWx3ATO1U4PaOeX4_R-5a_jZkoGN5lW-Pz1GwDbbuUkgWUbLIOgKK29_wC3U6syNOuqyQ.jpg",
+    ],
+    vid: [],
+  },
+];
+```
+
+<br>
+
+## search:
+
+<br>
+
+### Path Parameter
+
+| @channel_username | query |
+| ----------------- | ----- |
+
+<br>
+
+### Example:
+
+- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/v2/search/ethio_market_place/shoes
+- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/v2/search/ethio_market_place/shoes?after=1930
+- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/v2/search/ethio_market_place/shoes?before=1930
+
+<br>
+
+### Response Body Example:
+
+```js
+[
+  {
+    id: 2114,
+    text: "✅ New\n\n🏷️  MEN'S MID-HIGH STITCHING CASUAL SHOES\n\n🏷️  Men's Mid-high Stitching Casual shoes\n〰〰〰〰〰〰〰〰〰〰〰\n📐Size#39 #40#41#42#43 #44  \n💰 Price: 3400 br\n┃Free Delivery┃ \n✄〰〰〰〰〰〰〰〰〰〰\n📩 INBOX : @Maraki2211 \n📲 ስልክ : +251 913321831 \n\n🚩 አድራሻ - አዲስ አበባ, ሜክሲኮ፡ ከ ኬኬር ህንጻ 50ሜ ወረድ ብሎ አይመን ህንፃ  ግራውንድ ፍሎር ላይ፡ የሱቅ ቁ.012\n\n⊰━━━━━━━⊱⊰━━━━━━━⊰\nMaraki Brand™ ┃ማራኪ ብራንድ™ \n⊰━━━━━━━⊱⊰━━━━━━━⊱\n\n💵 3400 BIRR\n\n📱 251 913321831 |\n@Maraki2211 \n\n#NEW\n\nFrom: @ethio_market_place_bot",
+    img: [
+      "https://cdn4.telegram-cdn.org/file/bSvGMWw6eu1EvSMXfLqVYbygwe-NnQhq95D0AmV-B97hbrQaNvJUeoAUHAu0kGIkRCJn7V0mAQgA6tLC7d9ytYBF2XooqnzXpBUWNL-EhGYIHzV-3xRuTyUCZmiKnZyRuNDRWbbvndmighZFA-NZhaMzZ96yfQAY8uQaDRLntIdlucyvIjSSHx-Lel7WFPReRM1gChuZMtfgmZzJ9lvqTCJUueA9UEw07g47GieVV_c8PNEHMiW7gEy-sXPUGeJkQm3Kwn82EXEGUfPz-DfcDHoOpMZh5RcwNLqvYVk4atQpR2lNOszIscnOVaMK8Hfow1lVpGsVr_g-GB5yZMbCNw.jpg",
     ],
     vid: [],
   },
