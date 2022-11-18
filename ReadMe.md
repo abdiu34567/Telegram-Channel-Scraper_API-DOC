@@ -159,9 +159,9 @@
 
 ### Example:
 
-- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/v2/search/ethio_market_place?q=shoes
-- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/v2/search/ethio_market_place?q=shoes&after=1930
-- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/v2/search/ethio_market_place?q=shoes&before=1930
+- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/v2/search/ethio_market_place?search=shoes
+- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/v2/search/ethio_market_place?search=shoes&after=1930
+- **[Get]** ⚡️ https://fanatgchannelscraper.herokuapp.com/api/v2/search/ethio_market_place?search=shoes&before=1930
 
 <br>
 
