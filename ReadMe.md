@@ -2,7 +2,7 @@
 
 > [Updated Version Of Fana Protocol](https://github.com/baydisng13/fana-doc/blob/main/README.md)
 
-> Base Url : https://telegram-channel-scraper-api-1lfd.vercel.app/
+> Base Url : https://telegram-channel-scraper-api.vercel.app/
 
 <br>
 
@@ -54,7 +54,7 @@
 
 ### Example:
 
-**[Get]** ⚡️ https://telegram-channel-scraper-api-1lfd.vercel.app/api/v2/get_info/ethio_market_place
+**[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/get_info/ethio_market_place
 
 <br>
 
@@ -97,9 +97,9 @@
 
 ### Example get_post:
 
-- **[Get]** ⚡️ https://telegram-channel-scraper-api-1lfd.vercel.app/api/v2/get_post/ethio_market_place
-- **[Get]** ⚡️ https://telegram-channel-scraper-api-1lfd.vercel.app/api/v2/get_post/ethio_market_place?after=1930
-- **[Get]** ⚡️ https://telegram-channel-scraper-api-1lfd.vercel.app/api/v2/get_post/ethio_market_place?before=1930
+- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/get_post/ethio_market_place
+- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/get_post/ethio_market_place?after=1930
+- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/get_post/ethio_market_place?before=1930
 
 <br>
 
@@ -119,9 +119,9 @@
 
 ### Example get_posts:
 
-- **[Get]** ⚡️ https://telegram-channel-scraper-api-1lfd.vercel.app/api/v2/get_posts/behagerlij
-- **[Get]** ⚡️ https://telegram-channel-scraper-api-1lfd.vercel.app/api/v2/get_posts/behagerlij?after=500
-- **[Get]** ⚡️ https://telegram-channel-scraper-api-1lfd.vercel.app/api/v2/get_posts/behagerlij?before=500
+- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/get_posts/behagerlij
+- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/get_posts/behagerlij?after=500
+- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/get_posts/behagerlij?before=500
 
 <br>
 
@@ -159,9 +159,9 @@
 
 ### Example:
 
-- **[Get]** ⚡️ https://telegram-channel-scraper-api-1lfd.vercel.app/api/v2/search/ethio_market_place?search=shoes
-- **[Get]** ⚡️ https://telegram-channel-scraper-api-1lfd.vercel.app/api/v2/search/ethio_market_place?search=shoes&after=1930
-- **[Get]** ⚡️ https://telegram-channel-scraper-api-1lfd.vercel.app/api/v2/search/ethio_market_place?search=shoes&before=1930
+- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/search/ethio_market_place?search=shoes
+- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/search/ethio_market_place?search=shoes&after=1930
+- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/search/ethio_market_place?search=shoes&before=1930
 
 <br>
 
@@ -202,9 +202,9 @@
 
 ### Example:
 
-- **[Get]** ⚡️ https://telegram-channel-scraper-api-1lfd.vercel.app/api/v2/channel_value/ethio_market_place
-- **[Get]** ⚡️ https://telegram-channel-scraper-api-1lfd.vercel.app/api/v2/channel_value/ethio_market_place?after=1930
-- **[Get]** ⚡️ https://telegram-channel-scraper-api-1lfd.vercel.app/api/v2/channel_value/ethio_market_place?before=1930
+- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/channel_value/ethio_market_place
+- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/channel_value/ethio_market_place?after=1930
+- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/channel_value/ethio_market_place?before=1930
 
 <br>
 
@@ -244,9 +244,9 @@
 
 ### Example:
 
-- **[Get]** ⚡️ https://telegram-channel-scraper-api-1lfd.vercel.app/api/v2/getlastpost_id/ethio_market_place
-- **[Get]** ⚡️ https://telegram-channel-scraper-api-1lfd.vercel.app/api/v2/getlastpost_id/ethio_market_place?after=1930
-- **[Get]** ⚡️ https://telegram-channel-scraper-api-1lfd.vercel.app/api/v2/getlastpost_id/ethio_market_place?before=1930
+- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/getlastpost_id/ethio_market_place
+- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/getlastpost_id/ethio_market_place?after=1930
+- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/getlastpost_id/ethio_market_place?before=1930
 
 <br>
 
@@ -273,7 +273,7 @@
 
 ### Example:
 
-- **[Get]** ⚡️ https://telegram-channel-scraper-api-1lfd.vercel.app/api/v2/getpostby_id/ethio_market_place/1954
+- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/getpostby_id/ethio_market_place/1954
 
 <br>
 
@@ -292,16 +292,17 @@
 
 <br>
 
-### Query Parameter
+### Request Body
 
-| @channel username 1 | @channel username 2 | .... |
-| ------------------- | ------------------- | ---- |
+```js
+["ethio_market_place", "ethio_market_place"];
+```
 
 <br>
 
 ### Example:
 
-- **[Get]** ⚡️ https://telegram-channel-scraper-api-1lfd.vercel.app/api/v2/getmultiplechannels_post?channels=ethio_market_place&channels=ethio_market_place
+- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/getmultiplechannels_post
 
 <br>
 
