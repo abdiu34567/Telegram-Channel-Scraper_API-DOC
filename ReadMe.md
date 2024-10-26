@@ -2,7 +2,7 @@
 
 > [Updated Version Of Fana Protocol](https://github.com/baydisng13/fana-doc/blob/main/README.md)
 
-> Base Url : https://telegram-channel-scraper-api.vercel.app/
+> Base Url : https://emp.alwaysdata.net/api/v2
 
 <br>
 
@@ -54,7 +54,7 @@
 
 ### Example:
 
-**[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/get_info/ethio_market_place
+**[Get]** ⚡️ https://emp.alwaysdata.net/api/v2/get_info/ethio_market_place
 
 <br>
 
@@ -97,9 +97,9 @@
 
 ### Example get_post:
 
-- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/get_post/ethio_market_place
-- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/get_post/ethio_market_place?after=1930
-- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/get_post/ethio_market_place?before=1930
+- **[Get]** ⚡️ https://emp.alwaysdata.net/api/v2/get_post/ethio_market_place
+- **[Get]** ⚡️ https://emp.alwaysdata.net/api/v2/get_post/ethio_market_place?after=1930
+- **[Get]** ⚡️ https://emp.alwaysdata.net/api/v2/get_post/ethio_market_place?before=1930
 
 <br>
 
@@ -119,9 +119,9 @@
 
 ### Example get_posts:
 
-- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/get_posts/behagerlij
-- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/get_posts/behagerlij?after=500
-- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/get_posts/behagerlij?before=500
+- **[Get]** ⚡️ https://emp.alwaysdata.net/api/v2/get_posts/behagerlij
+- **[Get]** ⚡️ https://emp.alwaysdata.net/api/v2/get_posts/behagerlij?after=500
+- **[Get]** ⚡️ https://emp.alwaysdata.net/api/v2/get_posts/behagerlij?before=500
 
 <br>
 
@@ -159,9 +159,9 @@
 
 ### Example:
 
-- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/search/ethio_market_place?search=shoes
-- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/search/ethio_market_place?search=shoes&after=1930
-- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/search/ethio_market_place?search=shoes&before=1930
+- **[Get]** ⚡️ https://emp.alwaysdata.net/api/v2/search/ethio_market_place?search=shoes
+- **[Get]** ⚡️ https://emp.alwaysdata.net/api/v2/search/ethio_market_place?search=shoes&after=1930
+- **[Get]** ⚡️ https://emp.alwaysdata.net/api/v2/search/ethio_market_place?search=shoes&before=1930
 
 <br>
 
@@ -202,9 +202,9 @@
 
 ### Example:
 
-- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/channel_value/ethio_market_place
-- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/channel_value/ethio_market_place?after=1930
-- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/channel_value/ethio_market_place?before=1930
+- **[Get]** ⚡️ https://emp.alwaysdata.net/api/v2/channel_value/ethio_market_place
+- **[Get]** ⚡️ https://emp.alwaysdata.net/api/v2/channel_value/ethio_market_place?after=1930
+- **[Get]** ⚡️ https://emp.alwaysdata.net/api/v2/channel_value/ethio_market_place?before=1930
 
 <br>
 
@@ -244,9 +244,9 @@
 
 ### Example:
 
-- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/getlastpost_id/ethio_market_place
-- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/getlastpost_id/ethio_market_place?after=1930
-- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/getlastpost_id/ethio_market_place?before=1930
+- **[Get]** ⚡️ https://emp.alwaysdata.net/api/v2/getlastpost_id/ethio_market_place
+- **[Get]** ⚡️ https://emp.alwaysdata.net/api/v2/getlastpost_id/ethio_market_place?after=1930
+- **[Get]** ⚡️ https://emp.alwaysdata.net/api/v2/getlastpost_id/ethio_market_place?before=1930
 
 <br>
 
@@ -273,7 +273,7 @@
 
 ### Example:
 
-- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/getpostby_id/ethio_market_place/1954
+- **[Get]** ⚡️ https://emp.alwaysdata.net/api/v2/getpostby_id/ethio_market_place/1954
 
 <br>
 
@@ -302,7 +302,7 @@
 
 ### Example:
 
-- **[Get]** ⚡️ https://telegram-channel-scraper-api.vercel.app/api/v2/getmultiplechannels_post
+- **[Get]** ⚡️ https://emp.alwaysdata.net/api/v2/getmultiplechannels_post
 
 <br>
 
